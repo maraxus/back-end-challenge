@@ -76,6 +76,7 @@ Você pode escolher uma ou mais tecnologias para a entrega. A utilização do La
 * GraphQL;
 * Rest (pré-requisito);
 * Express/Adonis/Nest (caso decida fazer em Node)
+* Mysql/PostgreSql/MariaDB
 * Qualquer outra que julgar necessário ou que tiver familiaridade.
 
 ## O que será avaliado?
