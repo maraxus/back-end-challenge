@@ -1,0 +1,6 @@
+CREATE DATABASE IF NOT EXISTS `laravel` COLLATE 'utf8_general_ci' ;
+CREATE USER 'root'@'%' IDENTIFIED BY 'root';
+#
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+GRANT ALL ON `laravel`.* TO 'root'@'%' ;
+FLUSH PRIVILEGES ;
