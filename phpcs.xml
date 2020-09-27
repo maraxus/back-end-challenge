@@ -19,5 +19,8 @@
     <file>routes</file>
     <file>tests</file>
 
-    <rule ref="LeroyMerlin"/>
+    <rule ref="SlevomatCodingStandard">
+        <exclude name="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces"/>
+        <exclude name="SlevomatCodingStandard.TypeHints.DeclareStrictTypes"/>
+    </rule>
 </ruleset>
