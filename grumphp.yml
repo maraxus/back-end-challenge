@@ -1,4 +1,7 @@
 grumphp:
+    git_hook_variables:
+      EXEC_GRUMPHP_COMMAND: 'docker-compose exec -T web php'
+    stop_on_failure: true
     tasks:
 #      clover_coverage:
 #        clover_file: build/logs/clover.xml
