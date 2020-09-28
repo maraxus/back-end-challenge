@@ -2,7 +2,7 @@ grumphp:
     tasks:
       clover_coverage:
         clover_file: build/logs/clover.xml
-        level: 100
+        level: 0
       composer: ~
       phpcs:
         metadata:
@@ -17,8 +17,3 @@ grumphp:
         config_file: phpunit.xml
         metadata:
           priority: 1
-      yamllint:
-        whitelist_patterns:
-          - resources/views/documentation.yml
-
-#      { phpcs: null, phpstan: null, phpunit: null, yamllint: null }
