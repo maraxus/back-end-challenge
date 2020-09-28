@@ -1,0 +1,23 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/v1/pagamento/([0-9]*)"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+            "valor": 100.0,
+            "cpf": "00000000000",
+            "cartao": {
+                "titular": "John Doe",
+                "numero": "4111111111111111",
+                "data_expiracao": "12/2018",
+                "bandeira": "VISA",
+                "cvv": "123"
+            }
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

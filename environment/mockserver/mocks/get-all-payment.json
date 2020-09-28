@@ -1,0 +1,47 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/v1/pagamento"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": [
+            {
+                "valor": 100.0,
+                "cpf": "11111111111",
+                "cartao": {
+                    "titular": "Dora Doe",
+                    "numero": "5111111111111111",
+                    "data_expiracao": "12/2018",
+                    "bandeira": "VISA",
+                    "cvv": "321"
+                }
+            },
+            {
+                "valor": 100.0,
+                "cpf": "22222222222",
+                "cartao": {
+                    "titular": "John Jameson",
+                    "numero": "6111111111111111",
+                    "data_expiracao": "12/2018",
+                    "bandeira": "VISA",
+                    "cvv": "213"
+                }
+            },
+            {
+                "valor": 100.0,
+                "cpf": "3333333333",
+                "cartao": {
+                    "titular": "Don Doe",
+                    "numero": "7111111111111111",
+                    "data_expiracao": "12/2018",
+                    "bandeira": "VISA",
+                    "cvv": "133"
+                }
+            }
+        ],
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
