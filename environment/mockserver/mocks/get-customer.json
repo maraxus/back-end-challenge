@@ -1,0 +1,26 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/v1/cliente/([0-9]*)"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+            "nome": "Nome da Pessoa",
+            "dataNascimento": "18/05/2000",
+            "email": "emailteste@12345.com.br",
+            "cpf": "00000000000",
+            "endereco": {
+                "rua": "Rua Dom Jose",
+                "numero": "1234",
+                "bairro": "Bairro Jd Tatira",
+                "cidade": "São Paulo",
+                "estado": "SP",
+                "cep": "00000000"
+            }
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
