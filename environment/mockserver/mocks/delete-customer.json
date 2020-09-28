@@ -1,0 +1,15 @@
+{
+    "request": {
+        "method": "DELETE",
+        "urlPathPattern": "/api/v1/cliente/([0-9]*)"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+                "message": "successfully removed"
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
