@@ -9,6 +9,7 @@ grumphp:
           priority: 2
       phpstan:
         memory_limit: "1G"
+        use_grumphp_paths: false
         metadata:
           priority: 2
       phpunit:
