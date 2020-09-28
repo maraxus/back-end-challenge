@@ -39,7 +39,7 @@ services:
       - "8080:8080"
       - "8443:8443"
     volumes:
-      - ./mocks:/var/wiremock/mappings
+      - ./environment/mockserver/mocks:/var/wiremock/mappings
 
 volumes:
   dbdata:
