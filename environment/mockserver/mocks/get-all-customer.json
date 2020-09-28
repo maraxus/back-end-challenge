@@ -1,0 +1,70 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/v1/cliente"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": [
+            {
+                "nome": "John Doe",
+                "dataNascimento": "18/05/2000",
+                "email": "emailteste@155545.com.br",
+                "cpf": "11111111111",
+                "endereco": {
+                    "rua": "Rua Dom Jose",
+                    "numero": "1234",
+                    "bairro": "Bairro Jd Tatira",
+                    "cidade": "São Paulo",
+                    "estado": "SP",
+                    "cep": "11111111"
+                }
+            },
+            {
+                "nome": "John Foo",
+                "dataNascimento": "18/05/2000",
+                "email": "emailteste@12222.com.br",
+                "cpf": "22222222222",
+                "endereco": {
+                    "rua": "Rua Dom Jose",
+                    "numero": "5541",
+                    "bairro": "Bairro Jd Tatira",
+                    "cidade": "São Paulo",
+                    "estado": "SP",
+                    "cep": "22222222"
+                }
+            },
+            {
+                "nome": "Mariah Bar",
+                "dataNascimento": "18/05/2000",
+                "email": "emailteste@13333.com.br",
+                "cpf": "33333333333",
+                "endereco": {
+                    "rua": "Rua Dom Jose",
+                    "numero": "4457",
+                    "bairro": "Bairro Jd Tatira",
+                    "cidade": "São Paulo",
+                    "estado": "SP",
+                    "cep": "333333333"
+                }
+            },
+            {
+                "nome": "Heloise world",
+                "dataNascimento": "18/05/2000",
+                "email": "emailteste@144444.com.br",
+                "cpf": "44444444444",
+                "endereco": {
+                    "rua": "Rua Dom Jose",
+                    "numero": "5345",
+                    "bairro": "Bairro Jd Tatira",
+                    "cidade": "São Paulo",
+                    "estado": "SP",
+                    "cep": "44444444"
+                }
+            }
+        ],
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
