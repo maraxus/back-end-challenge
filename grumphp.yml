@@ -1,8 +1,8 @@
 grumphp:
     tasks:
-      clover_coverage:
-        clover_file: build/logs/clover.xml
-        level: 0
+#      clover_coverage:
+#        clover_file: build/logs/clover.xml
+#        level: 100
       composer: ~
       phpcs:
         metadata:
