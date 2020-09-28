@@ -30,6 +30,17 @@ services:
     - ./environment/dbentrypoint:/docker-entrypoint-initdb.d
     - dbdata:/var/lib/mysql
 
+  mockserver:
+    build:
+      context: .
+      dockerfile: ./environment/mockserver/Dockerfile
+    image: maraxus/wiremock-jre:0.0.2
+    ports:
+      - "8080:8080"
+      - "8443:8443"
+    volumes:
+      - ./mocks:/var/wiremock/mappings
+
 volumes:
   dbdata:
     driver: local
